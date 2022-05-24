@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.konteineris {
+    display: flex;
+    border: 1px solid silver;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.mygtukas {
+    height: 40px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+.mygtuko-nuoroda {
+    display: block;
+    padding: 0.5em;
+}
+
