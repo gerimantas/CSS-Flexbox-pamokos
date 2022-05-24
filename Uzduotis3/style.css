@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.konteineris {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+   
+    border: 1px solid silver;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.mygtukas {
+    justify-content: center;
+    color: aliceblue;
+    background-color: #4356ad;
+    border: 1px solid #4356ad;
+    padding: 0.5em;
+    height: 40px;
+    border-radius: 8px;
+}
